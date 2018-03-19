@@ -11,6 +11,6 @@ append bootsplash-manjaro-mi hook in the end of HOOKS string of /etc/mkinitcpio.
 
 add quiet bootsplash.bootfile=bootsplash-themes/manjaro-mi/bootsplash into GRUB_CMDLINE_LINUX string of /etc/default/grub
 
-sudo mkinitcpio -p linux414
+sudo mkinitcpio -p linux414 (or linux415/416)
 
 sudo update-grub
