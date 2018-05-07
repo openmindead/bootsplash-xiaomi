@@ -1,12 +1,12 @@
 pkgbase=bootsplash-themes
 pkgname=('bootsplash-theme-manjaro-mi')
 pkgver=0.6
-pkgrel=2
+pkgrel=3
 url="https://lists.freedesktop.org/archives/dri-devel/2017-December/160242.html"
 arch=('x86_64')
 license=('GPL')
 
-depends=('linux414' 'systemd')
+depends=('linux416' 'systemd')
 builddepends=('imagemagick')
 options=('!libtool' '!emptydirs')
 
