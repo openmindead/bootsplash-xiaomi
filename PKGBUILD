@@ -6,7 +6,7 @@ url="https://lists.freedesktop.org/archives/dri-devel/2017-December/160242.html"
 arch=('x86_64')
 license=('GPL')
 
-depends=('linux416' 'systemd')
+depends=('systemd')
 builddepends=('imagemagick')
 options=('!libtool' '!emptydirs')
 
