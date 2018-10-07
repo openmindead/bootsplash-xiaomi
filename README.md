@@ -15,6 +15,4 @@ append `bootsplash-manjaro-mi` hook in the end of `HOOKS` string of /etc/mkinitc
 
 add `quiet bootsplash.bootfile=bootsplash-themes/manjaro-mi/bootsplash` into `GRUB_CMDLINE_LINUX` string of /etc/default/grub
 
-`sudo mkinitcpio -p linux414` (or linux415/416)
-
-`sudo update-grub`
+run `sudo mkinitcpio -P && sudo update-grub` to update initial ram disk and grub configuration
