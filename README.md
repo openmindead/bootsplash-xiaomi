@@ -7,7 +7,7 @@ Nothing special, yet another bootsplash theme for Manjaro Linux (Xiaomi logo).
 
 `cd manjaro-bootsplash-mi`
 
-run `bootsplash-xiaomi.sh` to generate bootsplash-xiaomi STL model
+run `bootsplash-xiaomi.sh` to re-generate bootsplash-xiaomi STL model (optional)
 
 run `makepkg` to create Arch package and install it with `pacman -U %packagename%`
 
