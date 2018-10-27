@@ -6,7 +6,7 @@
 # This needs ImageMagick for the 'convert' and 'identify' tools.
 #
 
-LOGO=manjaro-mi.png
+LOGO=mi.png
 LOGO_WIDTH=$(identify $LOGO | cut -d " " -f 3 | cut -d x -f 1)
 LOGO_HEIGHT=$(identify $LOGO | cut -d " " -f 3 | cut -d x -f 2)
 
