@@ -13,6 +13,6 @@ run `makepkg` to create Arch package and install it with `pacman -U %packagename
 
 append `bootsplash-xiaomi` hook in the end of `HOOKS` string of /etc/mkinitcpio.conf
 
-add `quiet bootsplash.bootfile=bootsplash-themes/xiaomi/bootsplash` into `GRUB_CMDLINE_LINUX` string of /etc/default/grub
+add `quiet bootsplash.bootfile=bootsplash-themes/xiaomi/bootsplash` into `GRUB_CMDLINE_LINUX` string of `/etc/default/grub`
 
 run `sudo mkinitcpio -P && sudo update-grub` to update initial ram disk and grub configuration
