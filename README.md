@@ -3,7 +3,7 @@ Nothing special, yet another bootsplash theme for Manjaro Linux (Xiaomi logo).
 
 # installation & configuration
 
-`git clone https://github.com/openmindead/manjaro-bootsplash-mi.git`
+`git clone https://github.com/openmindead/bootsplash-xiaomi.git`
 
 `cd manjaro-bootsplash-mi`
 
