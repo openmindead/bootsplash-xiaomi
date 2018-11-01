@@ -54,25 +54,6 @@ convert -alpha remove \
 	--blob throbber02.rgb \
 	--blob throbber03.rgb \
 	--blob throbber04.rgb \
-	--blob throbber05.rgb \
-	--blob throbber06.rgb \
-	--blob throbber07.rgb \
-	--blob throbber08.rgb \
-	--blob throbber09.rgb \
-	--blob throbber10.rgb \
-	--blob throbber11.rgb \
-	--blob throbber12.rgb \
-	--blob throbber13.rgb \
-	--blob throbber14.rgb \
-	--blob throbber15.rgb \
-	--blob throbber16.rgb \
-	--blob throbber17.rgb \
-	--blob throbber18.rgb \
-	--blob throbber19.rgb \
-	--blob throbber20.rgb \
-	--blob throbber21.rgb \
-	--blob throbber22.rgb \
-	--blob throbber23.rgb \
 	bootsplash-xiaomi
 
 rm *.rgb
