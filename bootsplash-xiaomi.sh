@@ -26,10 +26,8 @@ convert -alpha remove \
 	$THROBBER \
 	throbber%02d.rgb
 
-
 #make clean
 #make bootsplash-packer
-
 
 # Let's put Tux in the center of an orange background.
 ./bootsplash-packer \
