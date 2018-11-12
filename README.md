@@ -16,3 +16,8 @@ append `bootsplash-xiaomi` hook in the end of `HOOKS` string of /etc/mkinitcpio.
 add `bootsplash.bootfile=bootsplash-themes/xiaomi/bootsplash` into `GRUB_CMDLINE_LINUX` string of `/etc/default/grub`
 
 run `sudo mkinitcpio -P && sudo update-grub` to update initial ram disk and grub configuration
+
+
+# Some hints
+
+Your mkinitcpio.conf should contain i915 in MODULES in case of Intel-based system
