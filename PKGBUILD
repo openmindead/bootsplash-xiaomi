@@ -1,7 +1,7 @@
 pkgbase=bootsplash-themes
 pkgname=('bootsplash-theme-xiaomi')
 pkgver=0.7
-pkgrel=5
+pkgrel=6
 url="https://github.com/openmindead/manjaro-bootsplash-mi"
 arch=('x86_64')
 license=('GPL')
