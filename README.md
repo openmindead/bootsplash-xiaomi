@@ -1,23 +1,23 @@
 # manjaro-bootsplash-mi
 Nothing special, yet another bootsplash theme for Manjaro Linux (Xiaomi logo). 
 
-# installation & configuration
+# Installation & configuration
 
 `git clone https://github.com/openmindead/bootsplash-xiaomi.git`
 
 `cd manjaro-bootsplash-mi`
 
-run `bootsplash-xiaomi.sh` to re-generate bootsplash-xiaomi STL model (optional)
+Run `bootsplash-xiaomi.sh` to re-generate bootsplash-xiaomi STL model (optional)
 
-run `makepkg` to create Arch package and install it with `pacman -U %packagename%`
+Run `makepkg` to create Arch package and install it with `pacman -U %packagename%`
 
-append `bootsplash-xiaomi` hook in the end of `HOOKS` string of /etc/mkinitcpio.conf
+Append `bootsplash-xiaomi` hook in the end of `HOOKS` string of /etc/mkinitcpio.conf
 
-add `bootsplash.bootfile=bootsplash-themes/xiaomi/bootsplash` into `GRUB_CMDLINE_LINUX` string of `/etc/default/grub`
+Add `bootsplash.bootfile=bootsplash-themes/xiaomi/bootsplash` into `GRUB_CMDLINE_LINUX` string of `/etc/default/grub`
 
-run `sudo mkinitcpio -P && sudo update-grub` to update initial ram disk and grub configuration
+Run `sudo mkinitcpio -P && sudo update-grub` to update initial ram disk and grub configuration
 
 
 # Some hints
 
-Your mkinitcpio.conf should contain i915 in MODULES in case of Intel-based system
+The end result may vary on different configurations. For instance, it may be a good idea to add `i915` to `MODULES` section of `mkinitcpio.conf` in case of Intel-based system, or use modesetting kernel options, etc.
