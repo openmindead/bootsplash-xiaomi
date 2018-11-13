@@ -1,3 +1,4 @@
+# Maintainer: Vladimir Yerilov <openmindead AT gmail DOT com>
 pkgbase=bootsplash-themes
 pkgname=('bootsplash-theme-xiaomi')
 pkgver=0.7
@@ -8,6 +9,7 @@ license=('GPL')
 
 depends=('systemd')
 builddepends=('imagemagick')
+optdepends=('bootsplash-systemd: for better interration of bootsplash')
 options=('!libtool' '!emptydirs')
 
 source=('bootsplash-packer'
