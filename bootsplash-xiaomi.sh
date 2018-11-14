@@ -34,7 +34,7 @@ convert -alpha remove \
 	--bg_red 0x00 \
 	--bg_green 0x00 \
 	--bg_blue 0x00 \
-	--frame_ms 204 \
+	--frame_ms 240 \
 	--picture \
 	--pic_width $LOGO_WIDTH \
 	--pic_height $LOGO_HEIGHT \
@@ -44,7 +44,7 @@ convert -alpha remove \
 	--pic_width $THROBBER_WIDTH \
 	--pic_height $THROBBER_HEIGHT \
 	--pic_position 0x05 \
-	--pic_position_offset 400 \
+	--pic_position_offset 300 \
 	--pic_anim_type 1 \
 	--pic_anim_loop 0 \
 	--blob throbber00.rgb \
