@@ -5,7 +5,7 @@ Nothing special, yet another bootsplash theme for Manjaro Linux (Xiaomi logo).
 
 `git clone https://github.com/openmindead/bootsplash-xiaomi.git`
 
-`cd manjaro-bootsplash-mi`
+`cd bootsplash-xiaomi`
 
 Run `chmod +x bootsplash-packer bootsplash-xiaomi.sh`
 
