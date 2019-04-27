@@ -18,11 +18,11 @@ source=('bootsplash-packer'
 	'spinner.gif'
 	'mi.png')
 
-sha256sums=('SKIP'
-            'SKIP'
-            'SKIP'
-            'SKIP'
-            'SKIP')
+sha256sums=('51559d3ccfb448b03fa6439faf5869dbd0c2fbda1b5d5bf5d4ba70e60937472a'
+            'b1e4806a9c00e8ae3e04a0a10953863fa134c5c43e8a2dba87d40eb3c69e32a2'
+            '46ad752854d09c91660833a20143af6657906072ffc353f7a9b70302c7fe0246'
+            'b0c806ea7ebf554c4dd7d6dcd74f9a76b66d1ee24e4ffd04c3573f343b886986'
+            '6083fc4bc9fd4fac2f5c1c109ec954597c01eece7469641981b948b99f9f62f1')
 
 build() {
   cd "$srcdir"
