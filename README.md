@@ -1,4 +1,4 @@
-# manjaro-bootsplash-mi
+# Description
 Nothing special, yet another bootsplash theme for Manjaro Linux (Xiaomi logo). 
 
 # Installation & configuration
