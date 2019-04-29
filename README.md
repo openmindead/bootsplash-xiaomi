@@ -22,4 +22,4 @@ Run `sudo mkinitcpio -P && sudo update-grub` to update initial ram disk and grub
 
 # Some hints
 
-The end result may vary on different configurations. For instance, it may be a good idea to add `i915` to `MODULES` section of `mkinitcpio.conf` in case of Intel-based system, or use modesetting kernel options, etc.
+The end result may vary on different configurations. For instance, it may be a good idea to add `intel_agp i915` to `MODULES` section of `mkinitcpio.conf` in case of Intel-based system and use modesetting kernel options, etc.
