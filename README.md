@@ -1,5 +1,5 @@
 # Description
-Nothing special, yet another bootsplash theme for Manjaro Linux (Xiaomi logo). 
+Yet another bootsplash theme for Manjaro Linux (Xiaomi logo). 
 
 # Installation & configuration
 
@@ -9,15 +9,13 @@ Nothing special, yet another bootsplash theme for Manjaro Linux (Xiaomi logo).
 
 Run `chmod +x bootsplash-packer bootsplash-xiaomi.sh`
 
-Run `bootsplash-xiaomi.sh` to re-generate bootsplash-xiaomi STL model (optional)
-
-Run `makepkg` to create Arch package and install it with `pacman -U %packagename%`
+Add `bootsplash.bootfile=bootsplash-themes/xiaomi/bootsplash` into `GRUB_CMDLINE_LINUX` string of `/etc/default/grub`
 
 Append `bootsplash-xiaomi` hook in the end of `HOOKS` string of /etc/mkinitcpio.conf
 
-Add `bootsplash.bootfile=bootsplash-themes/xiaomi/bootsplash` into `GRUB_CMDLINE_LINUX` string of `/etc/default/grub`
+Run `makepkg` to create Arch package and install it with `pacman -U %packagename%`
 
-Run `sudo mkinitcpio -P && sudo update-grub` to update initial ram disk and grub configuration
+Run `sudo update-grub` to update initial ram disk and grub configuration
 
 
 # Some hints
